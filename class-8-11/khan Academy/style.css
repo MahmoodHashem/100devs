@@ -1,0 +1,146 @@
+
+
+
+body{
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+
+header nav ul{
+    list-style: none;
+}
+
+
+header nav{
+    display: flex;
+    justify-content: space-around;
+    font-family: "Lato", serif;
+    width: 100%;
+    font-weight: bold;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.201);
+  
+}
+
+
+ul li select{
+    color: #1965F2;
+    margin-right: 12px;
+    border: none;
+    outline: none;
+    font-family: "Lato", serif;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+
+.search{
+    background-color: #F0F1F2;
+    padding: 10px;
+   
+}
+
+.search i{
+    color: #92979C;
+    font-size: 20px;
+}
+
+.search input{
+    border: none;
+    background-color: transparent;
+    font-size: 16px;
+    font-family: "Lato", serif;
+}
+
+.search input::placeholder{
+    color: #1965F2;
+    font-family: "Lato", serif;
+   font-weight: bold;
+    font-size: 16px;
+}
+
+.search input:focus{
+    border: none;
+    outline: none;
+}
+
+
+.nav-bar-start, .nav-bar-end{
+    display: flex;
+    align-items: center;
+}
+
+.nav-bar-end a{
+    color: #1965F2;
+    text-decoration: none;
+    font-weight: bold;
+    margin: 8px;
+}
+
+
+
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+main .contents{
+    max-width: 400px;
+}
+
+main img{
+    max-width: 450px;
+}
+
+main h1{
+    position: relative;
+    font-family: "Source Serif 4", sans-serif; 
+    font-size: 40px;
+}
+
+main h1::after{
+    content: "";
+    position: absolute;
+    width:300px;
+    height: 2px;
+    bottom: 0;
+    left: -20px;
+    background-color: #5AD5AF;
+    transform: rotate(2deg);
+}
+
+
+main p{
+    font-family: "Lato", serif;
+    font-size: 15px;
+    line-height: 30px;
+}
+
+main a{
+    color: white;
+    background-color: #1965F2;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+
+
+footer h2{
+    font-size: 30px;
+    font-family: "";
+}
+
+
+footer{
+    display: grid;
+    place-items: center;
+    background-color: #F7F5F4;
+    text-align: center;
+    font-family: "Source Serif 4", sans-serif;
+    font-weight:lighter;
+    padding-bottom: 5rem;
+}
