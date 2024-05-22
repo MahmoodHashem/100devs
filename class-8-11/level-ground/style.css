@@ -1,0 +1,208 @@
+
+
+*{
+    font-family: Roboto, sans-serif;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+
+@media screen and (min-width: 651px) {
+ 
+    nav ul{
+        display: flex 
+    }
+
+}
+
+
+@media screen and (max-width: 650px) {
+
+    nav ul{
+        display:none;
+    }
+
+    section.visits{
+        flex-direction: column;
+    }
+
+    footer{
+        flex-direction: column;
+        gap: 30px;
+    }
+ 
+    
+}
+
+nav{
+    background-color: #66768A;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 7px 25px;
+    margin: 0;
+}
+
+nav > div{
+    color: white;
+    font-weight: bold;
+    opacity: 0.7;
+}
+
+nav > a{
+    color: #66768A;
+    text-decoration: none;
+    background-color: white;
+    padding: 10px 15px;
+    border-radius: 7px;
+    
+
+}
+
+nav ul{
+    list-style: none;
+ 
+    gap: 10px;
+    margin: 0;
+    padding: 20px;
+}
+
+nav ul a{
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 14px;
+}
+
+
+main{
+  
+    background-color: #66768A;
+    margin: 0;
+    padding: 10px 20%;
+    text-align: center; 
+    color: white;
+}
+
+main h1{
+    margin: 0;
+    text-transform: uppercase;
+}
+
+main p{
+    font-weight: 400;
+}
+
+.vid{
+    opacity: 0.7;
+    font-weight: lighter;
+    margin: 20px;
+    text-decoration: none;
+    color: white;
+}
+
+
+section.why{
+    text-align: center;
+    padding: 50px 20%;
+}
+
+
+section.visits{
+    background-color: #DBDFE2;
+    text-align: center;
+    padding: 50px 20%;
+    display: flex;
+    gap: 40px;
+}
+
+section.visits section{
+    display: grid;
+    justify-items: center;
+  
+    flex: 1
+}
+
+section.visits h3{
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.btn{
+    color: black;
+    height: 20px;
+    padding: 10px 20px;
+    font-size: 15px;
+    border: 1px solid;
+    text-decoration: none;
+    text-transform: uppercase;
+    align-self: end;
+}
+
+ .placeholder{
+    background-color: #66768A;
+    width: 200px;
+    height: 200px;
+}
+
+
+section.volunteer{
+    text-align: center;
+    padding: 50px 20%;
+}
+
+footer{
+    background-color: #161F2A;
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 30px;
+}
+
+footer .logos{
+    display: flex;
+    font-size: 25px;
+    gap:20px;  
+    color: white;
+}
+
+footer .links{
+   display: flex;
+   flex-direction: column;
+   gap: 10px;
+}
+
+footer .links a{
+    color: white;
+    text-decoration: none;
+}
+
+footer .links .site{
+    color: grey;
+    text-transform: uppercase;
+}
+
+footer .address h5, footer .address p{
+    margin: 0;
+    padding: 0;
+    text-transform: uppercase;
+    color: white;
+}
+
+footer .address h5{
+    margin-bottom: 10px;
+}
+
+footer .address p{
+    font-size: 14px;
+    line-height: 20px;
+}
+
+footer .address a{
+    color: white;
+    text-decoration: none;
+    margin-top: 10px;
+}
