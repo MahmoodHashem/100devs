@@ -1,9 +1,9 @@
 
 # Level Ground Layout 
 
+## [Live view](https://mahmoodhashem.github.io/100devs/class-8-11/level-ground/index.html)
 
-
-## Screen shots
+### Screenshots
 
 - Desktop 
   - ![](./screenshots/desktop.jpeg)
