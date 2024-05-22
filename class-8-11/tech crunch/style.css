@@ -1,0 +1,167 @@
+@font-face {
+  font-family: Acktiv;
+  src: url(assets/fonts/AktivGrotesk-Regular.ttf);
+}
+
+@font-face {
+  font-family: Acktiv-light;
+  src: url(assets/fonts/AktivGrotesk-Light.ttf);
+}
+
+@font-face {
+  font-family: Acktiv-bold;
+  src: url(assets/fonts/AktivGrotesk-Bold.ttf);
+}
+
+:root {
+  --light: Acktiv-light;
+  --bold: Acktiv-bold;
+}
+
+* {
+  font-family: Acktiv, sans-serif;
+}
+
+body {
+  display: grid;
+  gap: 10px;
+}
+
+@media screen and (min-width: 801px) {
+  nav {
+    display: inline-flex;
+  }
+
+  body {
+    grid-template-columns: 0.5fr 1fr 1fr;
+  }
+
+  .the-latest {
+    grid-column: span 2;
+  }
+}
+
+@media screen and (max-width: 800px) and (min-width: 651px) {
+  nav {
+    display: none;
+  }
+
+  body {
+    grid-template-columns: 0.5fr 1fr;
+  }
+
+  .the-latest {
+    grid-column: span 2;
+  }
+
+  .the-latest h2 {
+    font-size: 20px;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  nav {
+    display: none;
+  }
+  body {
+    grid-template-columns: auto;
+  }
+  .the-latest h2 {
+    font-size: 16px;
+  }
+
+  .the-latest .news .container {
+    display: -webkit-box;
+    -webkit-line-clamp: 3; /* Number of lines to display */
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+
+  }
+}
+
+nav {
+  flex-direction: column;
+  gap: 10px;
+  margin-left: 40px;
+  grid-row: span 5;
+  position: sticky;
+  left: 0;
+}
+
+nav ul {
+  list-style: none;
+  margin-left: 0;
+  font-size: 16px;
+  font-weight: lighter;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+nav a {
+  color: #787878;
+  text-decoration: none;
+}
+
+nav a:hover:first-child {
+  color: #1fc13e;
+}
+
+main,
+aside {
+  margin-top: 20px;
+}
+
+main h1 {
+  margin-top: 0;
+  font-size: 40px;
+  font-family: var(--bold);
+}
+
+main img {
+  max-width: 400px;
+}
+
+main:hover {
+  cursor: pointer;
+  color: #00a562;
+}
+
+aside .category {
+  color: #00a562;
+}
+
+aside h3 {
+  margin-top: 0;
+}
+
+aside h3:hover,
+aside .author:hover {
+  color: #00a562;
+  cursor: pointer;
+}
+
+.the-latest .news {
+  display: flex;
+  margin: 50px 20px;
+  gap: 10px;
+}
+
+.the-latest img {
+  max-width: 200px;
+  max-height: 200px;
+}
+
+.the-latest .news:hover {
+  cursor: pointer;
+}
+
+.the-latest .news:hover h2 {
+  cursor: pointer;
+  color: #00a562;
+}
+
+.the-latest .news:hover img {
+  opacity: 0.7;
+}
