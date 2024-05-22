@@ -3,15 +3,21 @@
 
 Welcome to my repository for the 100Devs bootcamp homework assignments! This repository  contains all the homework tasks I've been completing  as part of the 100Devs web development bootcamp.
 
-## Projects Overview
+## Projects
 
-Below is the main page link where all the projects are listed and can be accessed:
+### 1. Khan Academy Layout 
+- [Project Repository](https://github.com/MahmoodHashem/100devs/tree/main/class-8-11/khan%20Academy)
+- [Live View](https://mahmoodhashem.github.io/100devs/class-8-11/khan%20Academy/index.html)
 
-[100Devs Projects](https://mahmoodhashem.github.io/100devs/)
+### 2. Tech Crunch Layout
+- [Project Repo](https://github.com/MahmoodHashem/100devs/tree/main/class-8-11/tech%20crunch)
+- [Live View](https://mahmoodhashem.github.io/100devs/class-8-11/tech%20crunch/index.html)
 
-## Getting Started
+### 3. BBC Layout
+- [Project Repo](https://github.com/MahmoodHashem/100devs/tree/main/bbc)
+- [Live View](https://mahmoodhashem.github.io/100devs/bbc/index.html)
 
-To get started with exploring the projects, simply click on the link above or navigate through the folders in this repository.
+
 
 ## Contributions
 

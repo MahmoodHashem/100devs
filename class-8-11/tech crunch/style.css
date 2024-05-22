@@ -72,7 +72,7 @@ body {
 
   .the-latest .news .container {
     display: -webkit-box;
-    -webkit-line-clamp: 3; /* Number of lines to display */
+    -webkit-line-clamp: 3; 
     -webkit-box-orient: vertical;
     overflow: hidden;
 
