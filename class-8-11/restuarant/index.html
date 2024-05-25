@@ -15,66 +15,73 @@
         <nav>
             <ul>
                 <li><a href="#">Home</a></li>
-                <li><a href="#">About Us</a></li>
-                <li><a href="#">Menu</a></li>
-                <li><a href="#">Order Now</a></li>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#order">Menu</a></li>
+                <li><a href="#order">Order Now</a></li>
                 <li><a href="#">Blog</a></li>
                 <li><a href="#">Location</a></li>
                 <li><a href="#"><i class="fa-solid fa-cart-shopping"></i></a></li>
                 <li><a href="#"><i class="fa fa-magnifying-glass"></i></a></li>
             </ul>
         </nav>
- 
 
-    <main>
-        <h1>
-            Welcome <br> to our Cuisine Restaurant
-        </h1>
-        <div class="search">
-            <div class="input">
+
+        <main>
+            <h1>
+                Welcome <br> to our Cuisine Restaurant
+            </h1>
+            <div class="search">
+                <div class="input">
                     <i class="fa fa-magnifying-glass"></i>
-            <input type="text" placeholder="Search">
+                    <input type="text" placeholder="Search">
+                </div>
+
+                <div class="search-btn">
+                    <select name="location" id="location">
+                        <option value="location" default>Location</option>
+                        <option value="herat">Herat</option>
+                        <option value="kabul">Kabul</option>
+                        <option value="farah">Farah</option>
+                    </select>
+                </div>
             </div>
-        
-            <div class="search-btn">
-                <select name="location" id="location">
-                    <option value="location" default>Location</option>
-                    <option value="herat">Herat</option>
-                    <option value="kabul">Kabul</option>
-                    <option value="farah">Farah</option>
-                </select>
-            </div>
+            <ul>
+                <li><i class="fa-brands fa-facebook-f"></i>252k</li>
+                <li><i class="fa-brands fa-x-twitter"></i>62k</li>
+                <li><i class="fa-brands fa-instagram"></i>55k</li>
+            </ul>
+        </main>
+
+    </header>
+    <section class="about" id="about">
+        <div class="left-bg">
+            <img src="./images/left.jpg" alt="">
         </div>
-        <ul>
-            <li><i class="fa-brands fa-facebook-f"></i>252k</li>
-            <li><i class="fa-brands fa-x-twitter"></i>62k</li>
-            <li><i class="fa-brands fa-instagram"></i>55k</li>
-        </ul>
-    </main>
+        <section class="about-contents">
+            <h5>About Us</h5>
+            <h2>Descover Our Restaurant Story</h2>
+            <p>
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Architecto veritatis enim doloribus aperiam
+                eos
+                praesentium animi nobis, quo sed maiores et illo voluptatem obcaecati optio totam dolor in mollitia
+                unde?
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempore numquam qui saepe esse fugit
+                perferendis
+                repudiandae, adipisci delectus odio ipsa vitae, dolore iusto dolorum modi. Commodi alias cum ab optio.
+            </p>
+            <p>
+                dolor sit amet consectetur adipisicing elit. Cumque, mollitia!
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Officiis quibusdam quod minima, dolore nisi
+                temporibus.
+            </p>
 
-</header>
-    <section class="about">
-
-        <h5>About Us</h5>
-        <h2>Descover Our Restaurant Story</h2>
-        <p>
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Architecto veritatis enim doloribus aperiam eos
-            praesentium animi nobis, quo sed maiores et illo voluptatem obcaecati optio totam dolor in mollitia unde?
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempore numquam qui saepe esse fugit perferendis
-            repudiandae, adipisci delectus odio ipsa vitae, dolore iusto dolorum modi. Commodi alias cum ab optio.
-        </p>
-        <p>
-            dolor sit amet consectetur adipisicing elit. Cumque, mollitia!
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Officiis quibusdam quod minima, dolore nisi
-            temporibus.
-        </p>
-
-        <a href="#" class="discover-btn">
-            Discover Menu <i class="fa-solid fa-arrow-right discover-go"></i>
-        </a>
+            <a href="#" class="discover-btn">
+                Discover Menu <i class="fa-solid fa-arrow-right discover-go"></i>
+            </a>
+        </section>
     </section>
 
-    <section class="order">
+    <section class="order" id="order">
         <h5>Order Online Now</h5>
         <h2>Our Specility Cuisine</h2>
         <ul class="meals-list">
@@ -86,14 +93,126 @@
         </ul>
 
         <div class="image-container">
-            <img src="./images/b1.jpg" alt="">
-            <img src="./images/b2.jpg" alt="">
-            <img src="./images/b3.jpg" alt="">
-            <img src="./images/b4.jpg" alt="">
-            <img src="./images/b5.jpg" alt="">
-            <img src="./images/b6.jpg" alt="">
-            <img src="./images/b7.jpg" alt="">
-            <img src="./images/b8.jpg" alt="">
+            <div class="image">
+                <img src="./images/b1.jpg" alt="" class="img-1">
+                <div class="overlay">
+                    <h3>$14.99</h3>
+                    <div class="stars">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                    </div>
+                    <h4>Amlate</h4>
+                    <button class="order-btn">Order Now</button>
+                </div>
+            </div>
+            <div class="image">
+                <img src="./images/b2.jpg" alt="" class="img-1">
+                <div class="overlay">
+                    <h3>$14.99</h3>
+                    <div class="stars">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                    </div>
+                    <h4>Amlate</h4>
+                    <button class="order-btn">Order Now</button>
+                </div>
+            </div>
+            <div class="image">
+                <img src="./images/b3.jpg" alt="" class="img-1">
+                <div class="overlay">
+                    <h3>$14.99</h3>
+                    <div class="stars">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                    </div>
+                    <h4>Amlate</h4>
+                    <button class="order-btn">Order Now</button>
+                </div>
+            </div>
+            <div class="image">
+                <img src="./images/b4.jpg" alt="" class="img-1">
+                <div class="overlay">
+                    <h3>$14.99</h3>
+                    <div class="stars">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                    </div>
+                    <h4>Amlate</h4>
+                    <button class="order-btn">Order Now</button>
+                </div>
+            </div>
+            <div class="image">
+                <img src="./images/b5.jpg" alt="" class="img-1">
+                <div class="overlay">
+                    <h3>$14.99</h3>
+                    <div class="stars">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                    </div>
+                    <h4>Amlate</h4>
+                    <button class="order-btn">Order Now</button>
+                </div>
+            </div>
+            <div class="image">
+                <img src="./images/b6.jpg" alt="" class="img-1">
+                <div class="overlay">
+                    <h3>$14.99</h3>
+                    <div class="stars">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                    </div>
+                    <h4>Amlate</h4>
+                    <button class="order-btn">Order Now</button>
+                </div>
+            </div>
+            <div class="image">
+                <img src="./images/b7.png" alt="" class="img-1">
+                <div class="overlay">
+                    <h3>$14.99</h3>
+                    <div class="stars">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                    </div>
+                    <h4>Amlate</h4>
+                    <button class="order-btn">Order Now</button>
+                </div>
+            </div>
+            <div class="image">
+                <img src="./images/b8.jpg" alt="" class="img-1">
+                <div class="overlay">
+                    <h3>$14.99</h3>
+                    <div class="stars">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                    </div>
+                    <h4>Amlate</h4>
+                    <button class="order-btn">Order Now</button>
+                </div>
+            </div>
         </div>
     </section>
 
