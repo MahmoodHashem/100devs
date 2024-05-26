@@ -21,6 +21,10 @@ Welcome to my repository for the 100Devs bootcamp homework assignments! This rep
 - [Project Repo](https://github.com/MahmoodHashem/100devs/tree/main/class-8-11/level-ground)
 - [Live View](https://mahmoodhashem.github.io/100devs/class-8-11/level-ground/index.html)
 
+### 5. Cuisine Restaurant Layout 
+- [Project Repo](https://github.com/MahmoodHashem/100devs/tree/main/class-8-11/restuarant)
+- [Live View](https://mahmoodhashem.github.io/100devs/class-8-11/restuarant/index.html)
+
 
 
 ## Contributions
