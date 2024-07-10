@@ -9,25 +9,31 @@ Welcome to my repository for the 100Devs bootcamp homework assignments! This rep
 - [Project Repository](https://github.com/MahmoodHashem/100devs/tree/main/class-8-11/khan%20Academy)
 - [Live View](https://mahmoodhashem.github.io/100devs/class-8-11/khan%20Academy/index.html)
 
+![](https://communitytaught.org/img/resources/khan-academy.png)
+
 ### 2. Tech Crunch Layout
 
 - [Project Repo](https://github.com/MahmoodHashem/100devs/tree/main/class-8-11/tech%20crunch)
 - [Live View](https://mahmoodhashem.github.io/100devs/class-8-11/tech%20crunch/index.html)
+![](https://communitytaught.org/img/resources/techcrunch.png)
 
 ### 3. BBC Layout
 
 - [Project Repo](https://github.com/MahmoodHashem/100devs/tree/main/bbc)
 - [Live View](https://mahmoodhashem.github.io/100devs/bbc/index.html)
+![](https://communitytaught.org/img/resources/bbc-image.png)
 
 ### 4. Level Ground Layout
 
 - [Project Repo](https://github.com/MahmoodHashem/100devs/tree/main/class-8-11/level-ground)
 - [Live View](https://mahmoodhashem.github.io/100devs/class-8-11/level-ground/index.html)
+![](https://communitytaught.org/img/resources/level-ground.png)
 
 ### 5. Cuisine Restaurant Layout
 
 - [Project Repo](https://github.com/MahmoodHashem/100devs/tree/main/class-8-11/restuarant)
 - [Live View](https://mahmoodhashem.github.io/100devs/class-8-11/restuarant/index.html)
+![](https://communitytaught.org/img/resources/restaurant.png)
 
 ## Resources
 
